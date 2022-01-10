@@ -1,0 +1,12 @@
+/.idea
+
+# Python environment
+/venv
+
+# Test files
+.pytest_cache
+
+# Exercism
+.exercism
+.coveragerc
+*.md
