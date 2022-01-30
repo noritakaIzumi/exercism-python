@@ -1,3 +1,8 @@
+"""Guido's Gorgeous Lasagna
+
+https://exercism.org/tracks/python/exercises/guidos-gorgeous-lasagna
+
+"""
 EXPECTED_BAKE_TIME = 40
 PREPARATION_TIME = 2
 

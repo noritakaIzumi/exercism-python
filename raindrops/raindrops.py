@@ -1,4 +1,20 @@
-def convert(number):
+"""Raindrops
+
+https://exercism.org/tracks/python/exercises/raindrops
+
+"""
+
+
+def convert(number: int) -> str:
+    """convert number to rain string.
+
+    Args:
+        number (int):
+
+    Returns:
+        str:
+
+    """
     result = ''
 
     if number % 3 == 0:

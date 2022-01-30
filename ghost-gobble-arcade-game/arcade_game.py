@@ -1,3 +1,10 @@
+"""Ghost Gobble Arcade Game
+
+https://exercism.org/tracks/python/exercises/ghost-gobble-arcade-game
+
+"""
+
+
 def eat_ghost(power_pellet_active: bool, touching_ghost: bool) -> bool:
     """
 
