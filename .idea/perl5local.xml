@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Perl5LocalSettings">
+    <option name="perlInterpreter" value="Docker[perl:5.30.3-threaded-buster], System: Perl 5.30.3" />
+  </component>
+</project>
