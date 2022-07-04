@@ -9,3 +9,8 @@ tasks:
   - name: Exercism
     init: bash ./scripts/exercism-init.sh
     command: bash ./scripts/exercism-command.sh
+
+vscode:
+  extensions:
+    - "ms-python.python"
+    - "ms-python.pylint"
