@@ -1,0 +1,42 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Exercism: run tests",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "${fileDirname}/${fileBasenameNoExtension}_test.py",
+            ]
+        },
+        {
+            "label": "Exercism: submit",
+            "type": "shell",
+            "command": "exercism",
+            "args": [
+                "submit",
+                "${file}"
+            ]
+        },
+        {
+            "label": "Git: commit",
+            "type": "shell",
+            "command": "git restore --staged $(git diff --name-only --staged); find ${fileDirname} -type f -name '*.py' | xargs git add --verbose && git commit -m '${relativeFileDirname}'"
+        },
+        {
+            "label": "Git: push",
+            "type": "shell",
+            "command": "git push"
+        }
+    ],
+    "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "dedicated",
+        "showReuseMessage": true,
+        "clear": false
+    }
+}
