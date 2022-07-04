@@ -4,6 +4,6 @@ sudo cp -v exercism /usr/local/bin/
 rm -v exercism
 
 pushd /workspace
-ln -vnfs exercism-php php
+ln -vnfs exercism-python python
 exercism configure --token=${EXERCISM_TOKEN} --workspace=${PWD}
 popd
